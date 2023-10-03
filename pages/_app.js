@@ -1,5 +1,12 @@
-import '@/styles/globals.css'
+import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { useRouter } from "next/router";
+import { useEffect, useRef } from "react";
+
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
+  const getLayout = Component.getLayout || ((page) => page);
+  return getLayout(<Component {...pageProps} />);
 }
