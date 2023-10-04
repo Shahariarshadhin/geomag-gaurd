@@ -1,7 +1,8 @@
 import LandingLayout from "@/components/Layout/LandingLayout";
+import PublicRealTimeData from "@/components/RealTimeData/PublicRealTimeData";
 
 const RealTimeData = () => {
-  return <div>RealTimeData</div>;
+  return <div><PublicRealTimeData/></div>;
 };
 
 export default RealTimeData;

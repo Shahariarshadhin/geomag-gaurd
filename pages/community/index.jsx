@@ -1,4 +1,5 @@
 import CommunityBox from "@/components/Community/Communitybox";
+import LandingLayout from "@/components/Layout/LandingLayout";
 
 const Community = () => {
   return (
@@ -9,3 +10,7 @@ const Community = () => {
 };
 
 export default Community;
+
+Community.getLayout = function getLayout(page) {
+    return <LandingLayout>{page}</LandingLayout>;
+  };

@@ -7,6 +7,7 @@
   height: min-content;
   background-size: cover;
   background-repeat: no-repeat;
+   
 }
 .predict_bg {
   background-image: url('../components/Layout/assests/predict.png');
@@ -14,3 +15,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.realtime_bg {
+  background-image: url('../components/Layout/assests/MacBook\ Air\ -\ 1.png');
+  height: 950px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

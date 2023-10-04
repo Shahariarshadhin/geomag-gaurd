@@ -1,7 +1,7 @@
 
 const HomeContainer = () => {
   return (
-    <div >HomeContainer</div>
+    <div className="text-5xl text-white font-bold flex justify-center mt-[12%]">GeoMag Gaurd</div>
   )
 }
 
